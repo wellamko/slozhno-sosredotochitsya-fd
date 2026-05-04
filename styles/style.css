@@ -17,7 +17,7 @@
 .cover {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
+  min-block-size: 54vh;
 }
 
 .decorated-zone {
@@ -97,7 +97,7 @@
   color: var(--brand-color, #db00ff);
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 82.5%;
+  line-height: 150%;
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
 
@@ -154,6 +154,7 @@
 /* шапка */
 .header {
   align-items: start;
+  padding-bottom: 72px;
 }
 
 .header__theme-menu {
@@ -164,12 +165,13 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 18px;
 }
 
 .header__theme-menu-button {
   border: 1px solid transparent;
   padding: 2px 12px;
+  margin-top: 20px;
   color: var(--secondary-color, #ff0070);
   line-height: 18px;
   text-transform: lowercase;
@@ -196,7 +198,7 @@
 }
 
 .header__title {
-  margin-block: 55px;
+  margin-block: 66px;
   color: var(--highlight-color, #000028);
   font-weight: 700;
   font-size: inherit;
