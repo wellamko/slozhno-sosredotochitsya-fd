@@ -1,11 +1,25 @@
-.page.theme_dark {
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
-  --page-background-color: var(--color-black-1, #000028);
-  --page-background-image: url("../images/cover-image-dark.png");
+:root.theme-dark {
+  --main-text-color: #f1b2ce;
+  --header-color: #db00ff;
+  --button-color: #ff0070;
+  --subtitle-color: #000028;
+  --accent-color: #FF0070;
+  --bg-image: url("../images/cover-image-dark.png");
+  --bg-color: #000028;
+  --button-hover-border: rgba(255, 0, 112, 0.4);
   --rec-decor-visibility: visible;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text-color: #f1b2ce;
+    --header-color: #db00ff;
+    --button-color: #ff0070;
+    --subtitle-color: #000028;
+    --accent-color: #FF0070;
+    --bg-image: url("../images/cover-image-dark.png");
+    --bg-color: #000028;
+    --button-hover-border: rgba(255, 0, 112, 0.4);
+    --rec-decor-visibility: visible;
+  }
 }
