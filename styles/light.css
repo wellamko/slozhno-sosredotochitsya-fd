@@ -7,7 +7,7 @@
   --bg-image: url("../images/cover-image-light.png");
   --bg-color: #fff1f7;
   --button-hover-border: rgba(53, 52, 48, 0.4);
-  --rec-decor-display: none;
+  --rec-decor-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -20,6 +20,6 @@
     --bg-image: url("../images/cover-image-light.png");
     --bg-color: #fff1f7;
     --button-hover-border: rgba(53, 52, 48, 0.4);
-    --rec-decor-display: none;
+    --rec-decor-visibility: hidden;
   }
 }
