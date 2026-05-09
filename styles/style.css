@@ -98,7 +98,10 @@
 
 /* общее */
 .page-title {
-  grid-row: 2;
+  justify-self: start;
+  align-self: center;
+  inline-size: auto;
+  max-inline-size: 100%;
   color: var(--header-color, #db00ff);
   font-family: var(--main-font-family);
   font-weight: 700;
@@ -168,7 +171,6 @@
   min-block-size: max(100vh, 668px);
   padding: clamp(10px, 2.5vw, 20px);
   position: relative;
-
 }
 
 .header__theme-menu {
@@ -214,9 +216,9 @@
 }
 
 .header__title {
-  grid-row: 3; 
   justify-self: start;
   align-self: center;
+  inline-size: clamp(364px, 50%, 491px);
   background: var(--accent-color);
   color: var(--subtitle-color);
   font-weight: 700;
@@ -239,7 +241,7 @@
 }
 
 .footer .page-title {
-  grid-row: auto; 
+  grid-row: auto;
   justify-self: center;
   align-self: center;
   margin: 0;
@@ -249,7 +251,7 @@
 /* 788px */
 @media (width >=768px) {
   .page-title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(7.5rem, 0.5625rem + 10vw, 9.8125rem);
   }
 
   .card {
