@@ -98,6 +98,7 @@
 
 /* общее */
 .page-title {
+  grid-row: 2;
   color: var(--header-color, #db00ff);
   font-family: var(--main-font-family);
   font-weight: 700;
@@ -107,7 +108,7 @@
 }
 
 .title {
-  color: var(--accent-color, #ff0070);
+  color: var(--title-color, #ff0070);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
@@ -213,7 +214,7 @@
 }
 
 .header__title {
-  grid-row: 2; 
+  grid-row: 3; 
   justify-self: start;
   align-self: center;
   background: var(--accent-color);

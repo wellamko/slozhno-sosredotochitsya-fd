@@ -4,6 +4,7 @@
   --button-color: #353430;
   --subtitle-color: #353430;
   --accent-color: #FF8DCB;
+  --title-color: #353430;
   --bg-image: url("../images/cover-image-light.png");
   --bg-color: #fff1f7;
   --button-hover-border: rgba(53, 52, 48, 0.4);
@@ -17,6 +18,7 @@
     --button-color: #353430;
     --subtitle-color: #353430;
     --accent-color: #FF8DCB;
+    --title-color: #353430;
     --bg-image: url("../images/cover-image-light.png");
     --bg-color: #fff1f7;
     --button-hover-border: rgba(53, 52, 48, 0.4);
