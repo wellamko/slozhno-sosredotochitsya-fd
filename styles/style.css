@@ -238,6 +238,14 @@
   position: relative;
 }
 
+.footer .page-title {
+  grid-row: auto; 
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+  text-align: center;
+}
+
 /* 788px */
 @media (width >=768px) {
   .page-title {
