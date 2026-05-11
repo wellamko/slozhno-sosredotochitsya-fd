@@ -1,5 +1,6 @@
-:root.theme-dark {
+:root {
   --main-text-color: #f1b2ce;
+  --main-font-family: "IBM Plex mono", monospace;
   --header-color: #db00ff;
   --button-color: #ff0070;
   --subtitle-color: #000028;
