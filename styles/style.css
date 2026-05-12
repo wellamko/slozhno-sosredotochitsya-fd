@@ -293,7 +293,7 @@
 
   .header__theme-menu {
     align-self: start;
-    margin-block-start: clamp(65px, 10vh, 170px);
+    margin-block-start: clamp(65px, 14vh, 170px);
   }
 
   .header__title {
